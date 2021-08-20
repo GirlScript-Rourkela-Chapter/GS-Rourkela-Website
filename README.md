@@ -1,7 +1,9 @@
 # GS-Rourkela-Website
 ### This is the Official website of Girlscript Rourkela Chapter
 
-tup the project locally the steps below.
+## Getting Started
+
+To setup the project locally the steps below.
 
 ### Prerequisites
 
@@ -47,4 +49,44 @@ tup the project locally the steps below.
   dnf install git
 
 ```
+
+### Local Repository Setup
+
+Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+1.  **Fork** the repo on GitHub
+2.  **Clone** the project to your local system
+3.  **Commit** changes to your own separate branch
+4.  **Push** your work back up to your fork
+5.  Submit a **Pull request** so that we can review your changes
+
+### Running the project.
+
+The project uses Yarn and not NPM. It is strictly advised to stick with Yarn so as to avoid dependency conflicts down the line.
+
+```
+## Checkout into the project client directory
+cd client
+
+## Install Dependencies
+yarn install
+
+## Run the Project
+yarn develop
+
+```
+
+Following are the commands to remove/add new dependencies using yarn
+
+```
+## Add a new Package
+yarn add package_name
+
+## Remove an existing Package
+yarn remove package_name
+
+## Save Package as a Dev Dependency
+yarn add -D package_name
+```
+
 
