@@ -9,7 +9,7 @@ To setup the project locally the steps below.
 
 - [Node.js](https://nodejs.org/en/download/)
 
-  ```sh
+ ```sh
   # Homebrew
   brew install nodejs
 
@@ -25,7 +25,7 @@ To setup the project locally the steps below.
   # Windows (chocolaty)
   cinst nodejs.install
 
-  ```
+ ```
 
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 
@@ -65,8 +65,6 @@ Please refer to the project's style and contribution guidelines for submitting p
 The project uses Yarn and not NPM. It is strictly advised to stick with Yarn so as to avoid dependency conflicts down the line.
 
 ```
-## Checkout into the project client directory
-cd client
 
 ## Install Dependencies
 yarn install
